@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+* {
+  text-align: center;
+}
+h1 {
+  margin: 25px !important;
+}
+a {
+  color: blue !important;
+  text-decoration: none !important;
+  transition: transform 0.2s;
+}
+a:hover {
+  color: chartreuse !important;
+  transform: scale(1.5);
+}
+button{
+  color: chartreuse !important;
+  text-decoration: none !important;
+  transition: transform 0.5s !important;
+}
+button:hover {
+  background-color: chartreuse !important;
+  color: blue !important;
+  transform: scale(1.5);
+}
+
+.navbar {
+  position: relative !important;
+  background-color: rgba(105, 110, 106, 0.8) !important;
+  z-index: 1;
+}
+.jumbotron {
+  position: relative;
+  top: -8.7vh;
+  border-radius: 0% !important;
+}
+.HomeContent {
+  position: relative;
+  top: -8.6vh;
+}
+.containerPeople {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  height: 53vh;
+}
+.cardContainer {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+.Card {
+        display: flex !important;
+        flex-direction: column !important;
+        flex-basis: 33% !important;
+}
+.imageCard {
+}
+form {
+  width: 75% !important;
+  margin: 30px auto;
+}
+p.center{
+  height:42Vh;
+}
+@media only screen and (max-width: 600px){
+
+.jumbotron {
+  position: relative;
+  top: 0vh;
+  height:50vh !important;
+}
+.HomeContent {
+  flex-direction:column;
+  top: 0vh;
+}
+
+
+}
